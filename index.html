@@ -1,0 +1,384 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Portfolio Design</title>
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/favicon.webp" type="image/x-icon">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="cover cover-left"></div>
+      <div class="cover cover-right"></div>
+
+      <div class="book">
+        <!--------- profile-page ------------>
+        <div class="book-page page-left">
+          <div class="profile-page">
+            <div class="profile-dp"></div>
+            <h1>Abdul Rehman</h1>
+            <h3>Web Developer</h3>
+
+            <div class="social-media">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <p>
+              Hi, I'm Abdul Rehman, a Web Developer. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Fugiat soluta placeat reiciendis at,
+              quod repudiandae voluptatum voluptates alias, magni, quos
+              inventore quia totam ex nemo excepturi nisi magnam quas.
+            </p>
+
+            <div class="btn-box">
+              <a href="#" class="btn">Download CV</a>
+              <a href="#" class="btn contact-me">Contact Me</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Page 1 & 2  -->
+        <div class="book-page page-right turn" id="turn-1">
+          <!-- Page 1 (work experience) -->
+          <div class="page-front">
+            <h1 class="title">Work Experience</h1>
+
+            <div class="work-educ-box">
+              <div class="work-educ-content">
+                <span class="year"
+                  ><i class="fa-solid fa-calendar-days"></i>2020 - 2021</span
+                >
+                <h3>Web Developer - Company</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Possimus sint tempore soluta illo facilis odit suscipit
+                  deserunt. Nulla ad consequatur nisi! Debitis amet
+                  necessitatibus rem!
+                </p>
+              </div>
+              <div class="work-educ-content">
+                <span class="year"
+                  ><i class="fa-solid fa-calendar-days"></i>2021 - 2022</span
+                >
+                <h3>Web Developer - Company</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Possimus sint tempore soluta illo facilis odit suscipit
+                  deserunt. Nulla ad consequatur nisi! Debitis amet
+                  necessitatibus rem!
+                </p>
+              </div>
+              <div class="work-educ-content">
+                <span class="year"
+                  ><i class="fa-solid fa-calendar-days"></i>2022 - 2023</span
+                >
+                <h3>Web Developer - Company</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Possimus sint tempore soluta illo facilis odit suscipit
+                  deserunt. Nulla ad consequatur nisi! Debitis amet
+                  necessitatibus rem!
+                </p>
+              </div>
+            </div>
+
+            <span class="number-page">1</span>
+
+            <!-- Next Button -->
+            <span class="next-prev-btn" data-page="turn-1">
+              <i class="fa-solid fa-angle-right"></i>
+            </span>
+          </div>
+
+          <!-- Page 2 (education) -->
+          <div class="page-back">
+            <h1 class="title">Education</h1>
+
+            <div class="work-educ-box">
+              <div class="work-educ-content">
+                <span class="year"
+                  ><i class="fa-solid fa-calendar-days"></i>2017 - 2018</span
+                >
+                <h3>Metric/Computer Science - School</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Possimus sint tempore soluta illo facilis odit suscipit
+                  deserunt. Nulla ad consequatur nisi! Debitis amet
+                  necessitatibus rem!
+                </p>
+              </div>
+              <div class="work-educ-content">
+                <span class="year"
+                  ><i class="fa-solid fa-calendar-days"></i>2018 - 2019</span
+                >
+                <h3>ICS - Collage</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Possimus sint tempore soluta illo facilis odit suscipit
+                  deserunt. Nulla ad consequatur nisi! Debitis amet
+                  necessitatibus rem!
+                </p>
+              </div>
+              <div class="work-educ-content">
+                <span class="year"
+                  ><i class="fa-solid fa-calendar-days"></i>2019 - 2020</span
+                >
+                <h3>B.Sc - University</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Possimus sint tempore soluta illo facilis odit suscipit
+                  deserunt. Nulla ad consequatur nisi! Debitis amet
+                  necessitatibus rem!
+                </p>
+              </div>
+            </div>
+
+            <span class="number-page">2</span>
+
+            <!-- Previous Button -->
+            <span class="next-prev-btn back" data-page="turn-1">
+              <i class="fa-solid fa-angle-left"></i>
+            </span>
+          </div>
+        </div>
+
+        <!-- Page 3 & 4  -->
+        <div class="book-page page-right turn" id="turn-2">
+          <!-- Page 3 (my services) -->
+          <div class="page-front">
+            <h1 class="title">My Services</h1>
+
+            <div class="services-box">
+              <div class="services-content">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+
+              <div class="services-content">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h3>Creative Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+
+              <div class="services-content">
+                <i class="fa-solid fa-chart-bar"></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+
+              <div class="services-content">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h3>SEO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+
+            <span class="number-page">3</span>
+
+            <!-- Next Button -->
+            <span class="next-prev-btn" data-page="turn-2">
+              <i class="fa-solid fa-angle-right"></i>
+            </span>
+          </div>
+
+          <!-- Page 4 (my skills) -->
+          <div class="page-back">
+            <h1 class="title">My Skills</h1>
+
+            <div class="skills-box">
+              <div class="skills-content">
+                <h3>Front-End Development</h3>
+                <div class="content">
+                  <span><i class="fa-brands fa-html5"></i>HTML</span>
+                  <span><i class="fa-brands fa-css3-alt"></i>CSS</span>
+                  <span><i class="fa-brands fa-js"></i>JS</span>
+                  <span><i class="fa-brands fa-angular"></i>Angular</span>
+                </div>
+              </div>
+
+              <div class="skills-content">
+                <h3>Design Skills</h3>
+                <div class="content">
+                  <span><i class="fa-regular fa-object-group"></i>Canva</span>
+                  <span><i class="fa-solid fa-chart-simple"></i>UI-UX</span>
+                  <span
+                    ><i class="fa-solid fa-wand-magic-sparkles"></i
+                    >Graphics</span
+                  >
+                  <span><i class="fa-brands fa-figma"></i>Figma</span>
+                </div>
+              </div>
+
+              <div class="skills-content">
+                <h3>Soft Skills</h3>
+                <div class="content">
+                  <span class="soft-skill"
+                    ><i class="fa-solid fa-comments"></i>Communication</span
+                  >
+                  <span class="soft-skill"
+                    ><i class="fa-regular fa-lightbulb"></i
+                    >Problem-Solving</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <span class="number-page">4</span>
+
+            <!-- Previous Button -->
+            <span class="next-prev-btn back" data-page="turn-2">
+              <i class="fa-solid fa-angle-left"></i>
+            </span>
+          </div>
+        </div>
+
+        <!-- Page 5 & 6  -->
+        <div class="book-page page-right turn" id="turn-3">
+          <!-- Page 5 (latest projects or my portfolio) -->
+          <div class="page-front">
+            <h1 class="title project-title">Latest Project</h1>
+
+            <div class="portfolio-box">
+              <div class="img-box">
+                <img src="img/project pic.jpg" alt="Project Pic" />
+              </div>
+
+              <div class="info-box">
+                <div class="info-title">
+                  <h3>Create Popup</h3>
+                  <a href="Link Create Popup/index.html" target="_blank"
+                    >Live Preview<i
+                      class="fa-solid fa-arrow-up-right-from-square"
+                    ></i
+                  ></a>
+                </div>
+                <p class="head-paragraph">Description:</p>
+                <p>
+                  Create Popup project allows you to design custom popups for
+                  your website effortlessly. Perfect for notifications, alerts,
+                  and promotions.
+                </p>
+              </div>
+
+              <div class="btn-box">
+                <a
+                  href="https://github.com/AbdulRehman646765/Create-Popup-Project"
+                  target="_blank"
+                  class="btn"
+                  >Source Code</a
+                >
+                <a href="#" class="btn" id="project-btn">More Projects</a>
+              </div>
+            </div>
+            <div class="projects-container">
+              <div class="my-projects-box">
+                <div class="my-projects">
+                  <img src="img/project1.jpg" />
+                  <h3>Focus on Today</h3>
+                </div>
+
+                <div class="my-projects">
+                  <img src="img/project2.jpg" />
+                  <h3>To Do List App</h3>
+                </div>
+
+                <div class="my-projects">
+                  <img src="img/project3.jpg" />
+                  <h3>Weather App</h3>
+                </div>
+
+                <div class="my-projects">
+                  <img src="img/project4.jpg" />
+                  <h3>Keyboard & Monitor</h3>
+                </div>
+
+                <div class="my-projects">
+                  <img src="img/project5.jpg" />
+                  <h3>Foodie Hamburger</h3>
+                </div>
+
+                <div class="my-projects">
+                  <img src="img/project6.jpg" />
+                  <h3>Fruit Basket</h3>
+                </div>
+
+                <div class="my-projects">
+                  <img src="img/project7.jpg" />
+                  <h3>Quiz Time</h3>
+                </div>
+              </div>
+
+              <a href="#" class="btn back-btn">Back</a>
+            </div>
+
+            <span class="number-page">5</span>
+
+            <!-- Next Button -->
+            <span class="next-prev-btn" data-page="turn-3">
+              <i class="fa-solid fa-angle-right"></i>
+            </span>
+          </div>
+
+          <!-- Page 6 (contact me) -->
+          <div class="page-back contact-page">
+            <h1 class="title">Contact Me!</h1>
+
+            <div class="contact-box">
+              <form action="#">
+                <input
+                  type="text"
+                  class="field"
+                  placeholder="Full Name"
+                  required
+                />
+                <input
+                  type="email"
+                  class="field"
+                  placeholder="Email Address"
+                  required
+                />
+                <textarea
+                  cols="30"
+                  rows="10"
+                  class="field"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+                <input type="submit" class="btn" value="Send Message" />
+              </form>
+            </div>
+
+            <span class="number-page">6</span>
+
+            <!-- Previous Button -->
+            <span class="next-prev-btn back" data-page="turn-3">
+              <i class="fa-solid fa-angle-left"></i>
+            </span>
+
+            <a href="#" class="back-profile">
+              <p>Profile</p>
+              <i class="fa-solid fa-user"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
